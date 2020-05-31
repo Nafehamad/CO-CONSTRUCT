@@ -69,9 +69,9 @@ export default class Forgot extends Component {
                         port: "465",
                         ssl: true, 
                         //if ssl: false, TLS is enabled,**note:** in iOS TLS/SSL is determined automatically, so either true or false is the same
-                        username: "anahek.smy.91@gmail.com",
-                        password: "anasahmad321098",
-                        from: "anahek.smy.91@gmail.com",
+                        username: "",
+                        password: "",
+                        from: "",
                         recipients: this.state.email,
                         subject: "Support Coconstruct",
                         htmlBody: '<h1>Your code For New Password</h1><p>The code is : '+this.state.NumberHolder+'</p>',
